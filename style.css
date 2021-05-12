@@ -1,0 +1,330 @@
+body{
+    background-color: #6b9494;
+}
+
+.container{
+    display: grid;
+    grid-gap: 3px;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.site-header{
+    background-color: lightsteelblue;
+    grid-column: 1 / span 2;
+    text-align: center;
+}
+
+.site-main{
+    background-color: rgba(255, 255, 255, 0.7);
+    grid-column: 1 / span 2;
+    padding: 5px;
+    overflow: scroll;
+}
+
+.main-bg{
+    background-image: url(img/table-top.jpg);
+    grid-column: 1 / span 2;
+}
+
+.link-container{
+    display: inline;
+    grid-gap: 5px;
+    text-align: center;
+    justify-content: center;
+    list-style-type: none;
+}
+
+.link-footer{
+    display: grid;
+    text-align: center;
+    justify-content: center;
+}
+
+.group-link-btn{
+    display: inline-block;
+    background-color: #f44336;
+    color: #FFFFFF;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    opacity: 0.9;
+    width: 100%;
+    padding: 15px;
+    margin-left: -10px;
+}
+
+.find-groups{
+    background-color: lightgreen;
+    grid-column: 1 / span 2;
+    padding: 5px;
+    overflow: scroll;
+}
+
+.find-groups a{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    text-transform: none;
+}
+
+.find-groups a:hover{
+    text-decoration: underline;
+}
+
+.find-groups a:visited{
+    color: white;
+}
+
+.rules{
+    background-color: lightsalmon;
+    grid-column: 1 / span 2;
+    padding: 5px;
+    overflow: scroll;
+}
+
+.rules-btn{
+    text-align: center;
+}
+
+.rules-link-btn{
+    display: inline-block;
+    background-color: #f44336;
+    color: #FFFFFF;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    opacity: 0.9;
+    width: 50%;
+    padding: 15px;
+    margin-left: -10px;
+}
+
+.site-footer{
+    background-color: lightyellow;
+    grid-column: 1 / span 2;
+    padding: 5px;
+}
+
+.world-building{
+    background-color: lightpink;
+    grid-column: 1 / span 2;
+    padding: 5px;
+}
+
+.tools-link-btn{
+    display: inline-block;
+    background-color: #f44336;
+    color: #FFFFFF;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    opacity: 0.9;
+    width: 100%;
+    padding: 15px;
+    margin-left: -10px;
+}
+
+.building-header{
+    text-align: center;
+    background-color: red;
+    grid-column: 1 / span 2;
+}
+
+input[type=checkbox] {
+    transform: scale(3.5);
+}
+
+.building-checklist{
+    background-color: lightsalmon;
+    grid-column: 1 / span 2;
+    padding: 15px;
+    overflow: scroll;
+    font-size: 3em;
+    display: flex;
+    align-content: space-around;
+}
+
+.building-body{
+    background-color: lightyellow;
+    grid-column: 1 / span 2;
+    padding: 5px;
+    text-align: center;
+}
+
+.check1{
+    background-color: lightyellow;
+    grid-column: 1 / span 2;
+    padding: 5px;
+    text-align: center;
+}
+
+.check2{
+    background-color: lightyellow;
+    grid-column: 1 / span 2;
+    padding: 5px;
+    text-align: center;
+}
+
+.check3{
+    background-color: lightyellow;
+    grid-column: 1 / span 2;
+    padding: 5px;
+    text-align: center;
+}
+
+.check4{
+    background-color: lightyellow;
+    grid-column: 1 / span 2;
+    padding: 5px;
+    text-align: center;
+}
+
+.check5{
+    background-color: lightyellow;
+    grid-column: 1 / span 2;
+    padding: 5px;
+    text-align: center;
+}
+
+.btn {
+  position: fixed; 
+  bottom: 20px; 
+  right: 30px; 
+  z-index: 99; 
+  border: none; 
+  outline: none; 
+  background-color: lightblue; 
+  color: white; 
+  cursor: pointer; 
+  padding: 15px; 
+  border-radius: 10px; 
+  font-size: 18px; 
+  }
+
+  .btn:hover {
+    background-color: RoyalBlue;
+  }
+  
+@media screen and (min-width: 600px) {
+    .container{
+        display: grid;
+        grid-gap: 3px;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .site-header{
+        background-color: lightsteelblue;
+        grid-column: 1 / span 2;
+        text-align: center;
+    }
+
+    .site-main{
+        background-color: rgba(255, 255, 255, 0.7);
+        grid-column: 1;
+        padding: 5px;
+        overflow: hidden;
+    }
+
+    .main-bg{
+        background-image: url(img/table-top.jpg);
+        grid-column: 1;
+    }
+
+    .link-container{
+        display: grid;
+        grid-gap: 5px;
+        text-align: center;
+        justify-content: center;
+    }
+
+    .group-link-btn{
+        display: inline-block;
+        background-color: #f44336;
+        color: #FFFFFF;
+        text-align: center;
+        text-decoration: none;
+        font-size: 16px;
+        opacity: 0.9;
+        width: 100%;
+        padding: 15px;
+        margin-left: -10px;
+    }
+
+    .find-groups{
+        background-color: lightgreen;
+        grid-column: 2;
+        padding: 5px;
+        overflow: hidden;
+    }
+
+    .find-groups a{
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        text-decoration: none;
+        text-transform: none;
+    }
+
+    .find-groups a:hover{
+        text-decoration: underline;
+    }
+
+    .find-groups a:visited{
+        color: white;
+    }
+
+    .rules{
+        background-color: lightsalmon;
+        grid-column: 1;
+        padding: 5px;
+        overflow: hidden;
+    }
+
+    .rules-btn{
+        text-align: center;
+    }
+
+    .rules-link-btn{
+        display: inline-block;
+        background-color: #f44336;
+        color: #FFFFFF;
+        text-align: center;
+        text-decoration: none;
+        font-size: 16px;
+        opacity: 0.9;
+        width: 50%;
+        padding: 15px;
+        margin-left: -10px;
+    }
+    
+    .world-building{
+        background-color: peachpuff;
+        grid-column: 2;
+        padding: 5px;
+    }
+
+    .site-footer{
+        background-color: lightyellow;
+        grid-column: 1 / span 2;
+        padding: 5px;
+        text-align: center;
+    }
+
+    .site-footer p{
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
+    .tools-link-btn{
+        display: inline;
+        margin: 10px
+    }
+
+    .link-footer{
+        display: inline;
+        text-align: center;
+    }
+
+    .btn{
+        font-size: 64px;
+    }
+}
